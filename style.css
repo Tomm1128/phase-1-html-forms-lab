@@ -1,10 +1,15 @@
-form * {
+div form * {
   display: block;
   width: 80%;
   margin: 1em;
 }
 
-#checkbox {
-  display:inline;
-
+div #checkbox {
+  vertical-align: middle; 
+  position: relative; 
+  bottom: 1px; 
 }
+
+div label { 
+  display: inline; 
+} 
