@@ -10,6 +10,8 @@ div #checkbox {
   bottom: 1px; 
 }
 
-div label { 
-  display: inline; 
-} 
+div.checkbox-label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
